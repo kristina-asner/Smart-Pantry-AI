@@ -136,7 +136,7 @@ if choice == "My Pantry":
                                  title=f"Consumption Forecast for {item['product_name']}",
                                  markers=True)
                     fig.update_traces(line_color='#FF4B4B')
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, use_container_width=True, key=f"chart_{datetime.now().timestamp()}")
 
                 final_pred = days_by_usage
                 if days_by_usage is not None and item['current_qty'] <= 4:
