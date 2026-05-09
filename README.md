@@ -1,4 +1,6 @@
 # 🥑 Smart Pantry AI
+🚀 [Live Demo - Try it out!](https://smart-pantry-ai.streamlit.app/)
+
 **Smart Inventory Management with AI-Powered Insights**
 
 Smart Pantry AI is a full-stack web application designed to help users manage their home food inventory, reduce waste, and optimize nutrition. The app tracks expiration dates, predicts consumption patterns using Machine Learning, and suggests recipes based on real-time stock using Google's Gemini AI.
