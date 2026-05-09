@@ -22,5 +22,5 @@ Smart Pantry AI is a full-stack web application designed to help users manage th
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/kristina-asner/SmartPantry.git](https://github.com/kristina-asner/SmartPantry.git)
-   cd SmartPantry
+   git clone https://github.com/kristina-asner/Smart-Pantry-AI.git
+   cd Smart-Pantry-AI
