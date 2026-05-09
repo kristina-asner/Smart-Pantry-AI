@@ -1,33 +1,26 @@
-# 🛒 SmartPantry AI: MLOps Inventory & Nutrition Predictor
+# 🥑 Smart Pantry AI
+**Smart Inventory Management with AI-Powered Insights**
 
-**SmartPantry** is an intelligent inventory management system designed for fitness enthusiasts and students. It automates the tracking of household groceries using AI-powered receipt scanning and predicts depletion dates using machine learning, ensuring you never run out of essential protein or supplies.
+Smart Pantry AI is a full-stack web application designed to help users manage their home food inventory, reduce waste, and optimize nutrition. The app tracks expiration dates, predicts consumption patterns using Machine Learning, and suggests recipes based on real-time stock using Google's Gemini AI.
 
----
+## 🚀 Features
+*   **Secure Authentication:** User login/signup system with encrypted passwords (bcrypt) and persistent sessions using cookies.
+*   **AI Receipt Scanner:** Automatically add items to your pantry by scanning grocery receipts using Computer Vision.
+*   **Smart Forecast:** Linear Regression models predict when an item will run out based on your consumption history.
+*   **AI Chef:** Get personalized, high-protein recipe suggestions based on your current pantry contents, powered by Gemini 1.5 Flash.
+*   **Interactive Analytics:** Visual consumption charts using Plotly to track your food usage.
+*   **Shopping List Integration:** Automatic alerts and one-click "Move to Shopping List" for out-of-stock items.
 
 ## 🛠️ Tech Stack
-*   **Frontend:** Streamlit (Python-based Web Framework)
-*   **Backend:** Python 3.10
+*   **Frontend:** Streamlit
+*   **Backend:** Python
 *   **Database:** MongoDB Atlas (NoSQL)
-*   **ML & Vision:** AWS Textract (OCR), Scikit-learn (Forecasting)
-*   **Cloud Infrastructure:** AWS (S3, Lambda)
-*   **DevOps/MLOps:** GitHub Actions, Model Monitoring, Data Versioning
+*   **AI/ML:** Google Gemini API (GenAI), Scikit-learn
+*   **Data Viz:** Plotly, Pandas
 
----
+## 📦 Installation & Setup
 
-## 🌟 Key Features
-- **OCR Receipt Ingestion:** Upload grocery receipts to automatically update stock levels.
-- **Dynamic Forecasting:** ML engine that learns your consumption patterns to predict "Days Remaining" for each item.
-- **Smart Shopping List:** Context-aware list that prioritizes items based on urgency and nutritional goals.
-- **Nutrition Dashboard:** Real-time visibility into available macros (Protein/Calories) in your current inventory.
-
----
-
-## 📂 Project Structure
-```text
-SmartPantry/
-├── docs/               # Full Product & Technical Documentation
-│   └── requirements.md # Detailed system specifications
-├── src/                # Source code (Logic, UI, Database connections)
-├── data/               # Sample receipts and synthetic data
-├── tests/              # Unit tests for ML models and API
-└── README.md           # Main project overview
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/kristina-asner/SmartPantry.git](https://github.com/kristina-asner/SmartPantry.git)
+   cd SmartPantry
