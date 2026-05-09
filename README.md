@@ -7,7 +7,7 @@ Smart Pantry AI is a full-stack web application designed to help users manage th
 *   **Secure Authentication:** User login/signup system with encrypted passwords (bcrypt) and persistent sessions using cookies.
 *   **AI Receipt Scanner:** Automatically add items to your pantry by scanning grocery receipts using Computer Vision.
 *   **Smart Forecast:** Linear Regression models predict when an item will run out based on your consumption history.
-*   **AI Chef:** Get personalized, high-protein recipe suggestions based on your current pantry contents, powered by Gemini 1.5 Flash.
+*   **AI Chef:** Get personalized, high-protein recipe suggestions based on your current pantry contents, powered by Gemini 3.1 Flash-Lite.
 *   **Interactive Analytics:** Visual consumption charts using Plotly to track your food usage.
 *   **Shopping List Integration:** Automatic alerts and one-click "Move to Shopping List" for out-of-stock items.
 
