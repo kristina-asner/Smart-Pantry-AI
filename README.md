@@ -1,5 +1,4 @@
 # 🥑 Smart Pantry AI
-🚀 [Live Demo - Try it out!](https://smart-pantry-ai.streamlit.app/)
 
 **Smart Inventory Management with AI-Powered Insights**
 
